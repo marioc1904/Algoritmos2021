@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+header{
+    background-color: burlywood;
+    min-height:10vh ;  
+    text-align: center;
+    color: gray ;
+}
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase ;
+}
+
+main{
+    padding: 0px;
+}
+#comidas{
+    background-color: rgb(131, 108, 79);
+    padding: 3%;
+}
+
+#comidas-img-1{
+    margin: 0%;
+    text-align: center;
+}
+#comidas-img-1 > img {
+    width: 30vw;
+    height: 50vh;
+}
+
+
+footer{   
+    background-color: burlywood;
+    min-height:10vh ;  
+    text-align: center;
+    color: gray ;
+}
+footer > address > a {
+    font-size: 2em;
+    color: honeydew;
+    text-transform: uppercase;
+}
