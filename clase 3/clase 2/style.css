@@ -1,8 +1,9 @@
 body{
     background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    background-color: burlywood;
+    background-color:beige ;
     min-height:10vh ;  
     text-align: center;
     color: gray ;
@@ -31,6 +32,44 @@ main{
     height: 50vh;
 }
 
+#comidas-img-1 > img:hover {
+    width: 55vw;
+    height: 45vh;
+    transition: 0.5s;
+}
+
+
+
+#comidas-img-1 > figcaption{
+    font-size: 2rem;
+}
+
+#española > h2 {
+    font-size: 4rem;
+}
+
+#titulo-españa:hover{
+    background-color: cadetblue;  
+    transition: 1s;       
+}
+
+#española > ul > li {
+    font-size: 3rem;
+}
+
+#paella > img{
+    width: 40vw;
+    height: 35vh;
+}
+
+#paella > figcaption {
+    font-size: 2rem;
+}
+
+.content-fig{
+    width: 50vw;
+    height: 45vh;
+}
 
 footer{   
     background-color: burlywood;
