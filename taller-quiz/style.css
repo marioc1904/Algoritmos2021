@@ -1,0 +1,72 @@
+header{background-color: silver;
+    min-height: 15vh;
+    text-align: center;
+    color: black;
+}
+header:hover{
+    background-color: transparent;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase ;
+}
+
+body{
+    background-image:url(azul-oscuro.jpg) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Foto-cabeza-pagina{
+    margin: 0%;
+    text-align: center;
+}
+
+#Foto-cabeza-pagina > img{
+    width: 70vw;
+    height: 60vh;
+}
+
+
+#columna1 > h2{
+    font-size: 3em;
+    color: snow;
+    background-color: silver;
+    max-width: 20%;
+}
+h2{color: snow;}
+#columna1 {
+    background-color: silver;
+    padding: 0%;
+}
+p{
+    font-size: 1em;
+    color: snow;
+}
+
+#andy > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#columna2 > ul > li{
+    color:black;
+    background-color: silver;
+    font-size: 2em;
+}
+
+li{
+    background-color: silver;
+    margin: 2%;
+    line-height: 1.5;
+}
+
+#razon > h2{
+    font-size: 5em;
+    text-align: center;
+    color: snow;
+}
