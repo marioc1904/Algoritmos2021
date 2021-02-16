@@ -1,0 +1,359 @@
+.p1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.p2{text-align: center;
+font-size: 2em;
+background-color: bisque;}
+
+body{
+    background-image: url(naranja.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image: url(wallpaper-blanco.jpg);
+    font-family: "truculenta";
+    min-height:20vh ;  
+    text-align: center;
+    color: black ;
+}
+
+header > h1{
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase ;
+}
+
+main{
+    padding: 0px;
+}
+
+#foto-cabeza-pagina{
+    margin: 0%;
+    text-align: center;
+}
+#foto-cabeza-pagina > img {
+    width: 70vw;
+    height: 130vh;
+}
+
+#foto-cabeza-pagina > figcaption{
+    font-size: 1rem;
+}
+
+#Futbol > h2{
+    font-size: 3em;
+    background-color: wheat;
+    max-width: 12.5% ;
+}
+#titulo-futbol:hover{
+    background-color: turquoise;
+    transition: 1s;
+}
+
+#Futbol > ul > li{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#jugando{
+    text-align: left;
+    margin: 0%;
+}
+#jugando > img{
+    float: left;
+    width: 25vw;
+    height: 25vh;
+}
+
+#jugando > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#equipo{
+    text-align: center;
+}
+#equipo > img{
+    float: center;
+    width: 25vw;
+    height: 25vh;
+}
+
+#equipo > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#jugando2{
+    text-align: right;
+}
+#jugando2 > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#jugando2 > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#Cocinar > h2{
+    font-size: 3em;
+    background-color: wheat;
+    max-width: 15% ;
+}
+#titulo-cocina:hover{
+    background-color: turquoise;
+    transition: 1s;
+}
+
+#Cocinar > ul > li{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#tacos{
+    text-align: left;
+    margin: 0%;
+}
+#tacos > img{
+    float: left;
+    width: 25vw;
+    height: 25vh;
+}
+
+#tacos > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#pollo-naranja{
+    text-align: center;
+}
+#pollo-naranja > img{
+    float: center;
+    width: 25vw;
+    height: 25vh;
+}
+
+#pollo-naranja > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#hamburguesa{
+    text-align: right;
+}
+#hamburguesa > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#hamburguesa > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#bicicleta > h2{
+    font-size: 3em;
+    background-color: wheat;
+    max-width: 17% ;
+}
+#titulo-bicicleta:hover{
+    background-color: turquoise;
+    transition: 1s;
+}
+
+#bicicleta > ul > li{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#Distancia{
+    text-align: left;
+    margin: 0%;
+}
+#Distancia > img{
+    float: left;
+    width: 25vw;
+    height: 25vh;
+}
+
+#Distancia > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#Bicicleta{
+    text-align: center;
+}
+#Bicicleta > img{
+    float: center;
+    width: 25vw;
+    height: 25vh;
+}
+
+#Bicicleta > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#Bicicleta2{
+    text-align: right;
+}
+#Bicicleta2 > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#Bicicleta2 > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+.content-fig{
+    text-align: center;
+    width: 40vw;
+    height: 40vh;
+}
+
+#charco > h2{
+    font-size: 3em;
+    max-width: 25%;
+    background-color: wheat;
+}
+#titulo-charco:hover{
+    background-color: turquoise;
+    transition: 1s;
+}
+
+#charco > ul > li{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#Charco{
+    text-align: center;
+}
+#Charco > img{
+    float: center;
+    width: 24vw;
+    height: 25vh;
+}
+
+#Charco > img:hover {
+    width: 60vw;
+    height: 60vh;
+    transition: 0.5s;
+}
+
+#Charco2{
+    text-align: right;
+}
+#Charco2 > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#Charco2> img:hover {
+    width: 60vw;
+    height: 60vh;
+    transition: 0.5s;
+}
+#Charco3> img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#Charco3> img:hover {
+    width: 60vw;
+    height: 60vh;
+    transition: 0.5s;
+}
+
+
+#libro > h2{
+    font-size: 3em;
+    background-color: wheat;
+    max-width: 9% ;
+}
+#titulo-leer:hover{
+    background-color: turquoise;
+    transition: 1s;
+}
+
+#libro > ul > li{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#Libro1{
+    text-align: left;
+    margin: 0%;
+}
+#Libro1 > img{
+    float: left;
+    width: 25vw;
+    height: 25vh;
+}
+
+#Libro1 > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#Libro2{
+    text-align: center;
+}
+#Libro2 > img{
+    float: center;
+    width: 25vw;
+    height: 25vh;
+}
+
+#Libro2 > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+#Libro3{
+    text-align: right;
+}
+#Libro3 > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#Libro3 > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
+.p3{font-size: 1em;
+background-color: goldenrod;
+text-align: center;}
+
+footer{   
+    background-color: bisque;
+    min-height:2vh ;  
+    min-width: 50%;
+    text-align: center;
+    color: gray ;
+}
+footer > address > a {
+    font-size: 0.5em;
+    color: blue;
+    text-transform: uppercase;
+}
