@@ -1,5 +1,6 @@
 import time 
 import ordenamiento_burbuja as ob
+import ordenamiento_insercion as oi
 import random as r 
 
 lista = []
@@ -13,9 +14,12 @@ inicio = time.time()
 # instrucciones
 ob.ordenamientoBurbuja(lista)
 
-
+oi.ordenamientoInsercion(lista)
 # delta 
 deltaOb = time.time() - inicio
+
+deltaOi = time.time() - inicio
+
 
 # inicio 
 inicio = time.time()
@@ -28,5 +32,6 @@ listaCopia.sort()
 deltaSort = time.time() - inicio 
 print(deltaSort)
 print (deltaOb)
-
+print (deltaOi)
 print(deltaSort >= deltaOb)
+print(deltaSort >= deltaOi)
