@@ -8,10 +8,7 @@ def busquedaBinaria(lista,encontrar):
     izq = 0 
     der = len(lista)-1
     while izq <= der and isInlist== False:
-        print (lista)
         medio = (izq+der)//2
-        print ('calculo medio', (izq+der)//2)
-        print (f'valor izquierda {izq}, valor medio {medio}, valor derecha {der}')
 
         if lista [medio] == encontrar:
             isInlist = True 
