@@ -1,0 +1,68 @@
+.p1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.p2{text-align: center;
+font-size: 2em;
+background-color: greenyellow;}
+
+body{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image: url(wallpaper-blanco.jpg);
+    font-family: "truculenta";
+    min-height:20vh ;  
+    text-align: center;
+    color: greenyellow ;
+}
+
+header > h1{
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase ;
+}
+
+main{
+    padding: 0px;
+}
+
+#foto-cabeza-pagina{
+    margin: 0%;
+    text-align: center;
+}
+
+
+#foto-cabeza-pagina > figcaption{
+    font-size: 1rem;
+}
+
+#Futbol > h2{
+    font-size: 2.3em;
+    background-color: greenyellow;
+    max-width: 15% ;
+}
+#titulo-futbol:hover{
+    background-color: turquoise;
+    transition: 1s;
+}
+
+#Futbol > ul > li{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+#jugando2{
+    text-align: right;
+}
+#jugando2 > img{
+    width: 25vw;
+    height: 25vh;
+}
+
+#jugando2 > img:hover {
+    width: 50vw;
+    height: 50vh;
+    transition: 0.5s;
+}
+
